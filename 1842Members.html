@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>1842 Scholars - Members</title>
+<link rel="stylesheet" type="text/css" href="css.css" />
+<style>
+	.titleImage {
+            background:#3a159c;
+            opacity:0.45;
+            z-index: -1;
+
+            position: relative;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            }
+
+.bodyTable
+{
+    width: 100%;
+    background-color: #5672e1;
+}
+
+.bodyTable th
+{
+    background-color: white;
+    color: black;
+    border: 5px solid black;
+}
+
+.bodyTable td
+{
+    background-color: white;
+    color: black;
+    border: 5px solid black;
+}
+
+.hidden 
+{ 
+    display: none;
+}
+
+.executing
+{
+    border: 1px solid black;
+    background-color: red;
+}
+
+.influencing
+{
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+.relationship
+{
+    border: 1px solid black;
+    background-color: blue;
+}
+
+.strategic
+{
+    border: 1px solid black;
+    background-color: green;
+}
+
+
+
+.classButton {
+  background: none;
+  border: none;
+  padding: 0;
+  font-weight: bold;
+  font-size: 60px;
+  font-family: Gunplay;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+
+
+
+<!-- ---------------------------------------------------------------- Top Navigation & Image ---------------------------------------------------------------- -->
+<navigation>	
+
+	<!-- 1842 Logo-->
+	<div class="topnavlogo"><img src="images/img_1842_logo.png" width="25%" height="auto" alt="1842 Logo"></div>
+
+	<!-- Navigation Bar-->
+	<table class="topnav" style="text-align: center;">
+		<tr>
+			<td style="width: 25%;"><a href="index.html">Home Page</a></td>
+			<td style="width: 25%;"><a href="1842Members.html">Members</a></td>
+			<td style="width: 25%;"><a href="1842Resources.html">Resources</a></td>
+			<td  style="width: 25%;"><a href="1842AboutUs.html">About Us</a></td>
+		</tr>
+	</table>	
+
+	<hr>
+</navigation>
+
+	
+
+
+
+<!-- ---------------------------------------------------------------- About Us Body ---------------------------------------------------------------- -->
+
+
+<table class="bodyTable">
+    <tr>
+        <th>
+            <button class="classButton" onClick="toggleLeadershipTable()">Leadership Council</button>
+        </th>
+    </tr>
+</table>
+
+<div id="leadershipTable" class="hidden">
+    <table class="memberTable">
+        <tr>
+            <th> <!-- Conor Rom -->
+                <img src = "images/capGreen.png" width="17%">
+                <h1>President Conor Rom</h1>
+                <p>Accounting</p>
+                <p>School of Business</p>
+                <p>South Carolina</p>
+                <p>Palmetto Battery</p>
+                <p><div class="executing">Achiever</div><div class="executing">Focus</div><div class="executing">Responsibility</div><div class="strategic">Context</div><div class="strategic">Futuristic</div></p>
+            </th>
+    
+            <th> <!-- Kyle Samida -->
+                <img src = "images/capLightBlue.png" width="17%">
+                <h1>Vice President Kyle Samida</h1>
+                <p>Computer Science</p>
+                <p>School of Science & Math</p>
+                <p>New York</p>
+                <p>Golf CO.</p>
+                <p><div class="executing">Achiever</div><div class="executing">Focus</div><div class="executing">Restorative</div><div class="influencing">Competition</div><div class="strategic">Analytical</div></p>
+            </th>
+    
+            <th> <!-- Tiffany Wilson -->
+                <img src = "images/capYellow.png" width="17%">
+                <h1>Treasurer Tiffany Wilson</h1>
+                <p>Chemistry</p>
+                <p>School of Science & Math</p>
+                <p>Georgia</p>
+                <p>Foxtrot CO.</p>
+                <p><div class="executing">Achiever</div><div class="executing">Consistency</div><div class="executing">Restorative</div><div class="relationship">Empathy</div><div class="relationship">Harmony</div></p>
+            </th>
+    
+            <th> <!-- Abigail Kanewske -->
+                <img src = "images/capYellow.png" width="17%">
+                <h1>Secretary Abigail Kanewske</h1>
+                <p>History</p>
+                <p>School of Humanities & Social Science</p>
+                <p>Kentucky</p>
+                <p>Golf CO.</p>
+                <p><div class="executing">Achiever</div><div class="executing">Focus</div><div class="executing">Responsibility</div><div class="relationship">Harmony</div><div class="strategic">Context</div></p>
+            </th>
+    
+        </tr>
+    </table>
+</div>
+
+
+
+
+
+<table class="bodyTable">
+    <tr>
+        <th>
+            <button class="classButton" onClick="toggleAdvisorsTable()">Advisors</button>
+        </th>
+    </tr>
+</table>
+
+<div id="advisorsTable" class="hidden">
+    <table class="memberTable">
+        <tr>
+            <th style="width: 20%;">
+                <h1>Jamie Frishberg</h1>
+                <p>1842 Scholars Program - Director</p>
+                <p>Bond RM.153</p>
+                <p>jfrishbe@citadel.edu</p>
+                <p><div class="executing">Activator</div><div class="influencing">Competition</div><div class="influencing">Woo</div><div class="relationship">Empathy</div><div class="relationship">Positivity</div></p>
+            </th>
+        
+            <th style="width: 20%;">
+                <h1>Kelly Brennan</h1>
+                <p>1842 Scholars Program - Director</p>
+                <p>Bond RM.153</p>
+                <p>kbrenna1@citadel.edu</p>
+                <p><div class="executing">Activator</div><div class="executing">Adaptability</div><div class="relationship">Positivity</div><div class="relationship">Relator</div><div class="strategic">Analytical</div></p>
+            </th>
+        
+            <th style="width: 20%;">
+                <h1>Col. Charles Dunne</h1>
+                <p>1842 Freshmen Leadership Teacher</p>
+                <p></p>
+                <p>cdunne2@citadel.edu</p>
+                <p><div class="executing">Restorative</div><div class="influencing">Significance</div><div class="relationship">Individualization</div><div class="relationship">Relator</div><div class="strategic">Analytical</div></p>
+            </th>
+        
+            <th style="width: 20%;">
+                <h1>Maj. Joshua Haugh</h1>
+                <p>1842 Freshmen Leadership Teacher</p>
+                <p>Bond RM.138</p>
+                <p>joshua.haugh@citadel.edu</p>
+                <p><div class="executing">Achiever</div><div class="executing">Focus</div><div class="strategic">Analytical</div><div class="strategic">Context</div><div class="strategic">Learner</div></p>
+            </th>
+        </tr>
+    </table>
+</div>
+
+
+
+
+
+
+
+
+<table class="bodyTable">
+    <tr>
+        <th colspan="7">
+            <button class="classButton" onClick="toggleClassOf2026Table()">Class of 2026</button>
+        </th>
+    </tr>
+</table>
+
+<div id="classOf2026Table" class="hidden">
+    <table class="memberTable">
+
+    <tr>
+        <th> <!-- Could Be You -->
+            <img src = "images/capBlack.png" width="17%">
+            <h1>Could Be You</h1>
+            <p>Major</p>
+            <p>School of Study</p>
+            <p>Home State</p>
+            <p>Company</p>
+        </th>
+
+        <th> <!-- Could Be You -->
+            <img src = "images/capBlack.png" width="17%">
+            <h1>Could Be You</h1>
+            <p>Major</p>
+            <p>School of Study</p>
+            <p>Home State</p>
+            <p>Company</p>
+        </th>
+
+        <th> <!-- Could Be You -->
+            <img src = "images/capBlack.png" width="17%">
+            <h1>Could Be You</h1>
+            <p>Major</p>
+            <p>School of Study</p>
+            <p>Home State</p>
+            <p>Company</p>
+        </th>
+
+        <th> <!-- Could Be You -->
+            <img src = "images/capBlack.png" width="17%">
+            <h1>Could Be You</h1>
+            <p>Major</p>
+            <p>School of Study</p>
+            <p>Home State</p>
+            <p>Company</p>
+        </th>
+
+        <th> <!-- Could Be You -->
+            <img src = "images/capBlack.png" width="17%">
+            <h1>Could Be You</h1>
+            <p>Major</p>
+            <p>School of Study</p>
+            <p>Home State</p>
+            <p>Company</p>
+        </th>
+
+        <th> <!-- Could Be You -->
+            <img src = "images/capBlack.png" width="17%">
+            <h1>Could Be You</h1>
+            <p>Major</p>
+            <p>School of Study</p>
+            <p>Home State</p>
+            <p>Company</p>
+        </th>
+
+        <th> <!-- Could Be You -->
+            <img src = "images/capBlack.png" width="17%">
+            <h1>Could Be You</h1>
+            <p>Major</p>
+            <p>School of Study</p>
+            <p>Home State</p>
+            <p>Company</p>
+        </th>
+    </tr>
+</table>
+</div>
+
+
+
+
+
+<table class="bodyTable">
+    <tr>
+        <th colspan="7">
+            <button class="classButton" onClick="toggleClassOf2025Table()">Class of 2025</button>
+        </th>
+    </tr>
+</table>
+
+<div id="classOf2025Table" class="hidden">
+    <table class="memberTable">
+
+    <tr>
+        <th> <!-- Jillian Aylsowrth -->
+            <img src = "images/capLightBlue.png" width="17%">
+            <h1>Jillian Aylsworth</h1>
+            <p>Chemistry</p>
+            <p>School of Science and Math</p>
+            <p>Ohio</p>
+            <p>Alpha CO.</p>
+        </th>
+
+        <th> <!-- Jake Debenport -->
+            <img src = "images/capDarkBlue.png" width="17%">
+            <h1>Jake Debenport</h1>
+            <p>Construction Engineering</p>
+            <p>School of Engineering</p>
+            <p>South Carolina</p>
+            <p>Papa CO.</p>
+        </th>
+
+        <th> <!-- James Duke -->
+            <img src = "images/capDarkBlue.png" width="17%">
+            <h1>James Duke</h1>
+            <p>Civil Engineering</p>
+            <p>School of Engineering</p>
+            <p>South Carolina</p>
+            <p>Oscar CO.</p>
+        </th>
+
+        <th> <!-- Noah Hardy -->
+            <img src = "images/capDarkBlue.png" width="17%">
+            <h1>Noah Hardy</h1>
+            <p>Mechanical Engineering</p>
+            <p>School of Engineering</p>
+            <p>North Carolina</p>
+            <p>Papa CO.</p>
+        </th>
+
+        <th> <!-- Karessa Hill -->
+            <img src = "images/capYellow.png" width="17%">
+            <h1>Karessa Hill</h1>
+            <p>Intelligence & Security Studies</p>
+            <p>School of Humanities & Social Science</p>
+            <p>South Carolina</p>
+            <p>Echo CO.</p>
+            <p><div class="executing">Consistency</div><div class="executing">Discipline</div><div class="relationship">Harmony</div><div class="strategic">Futuristic</div><div class="strategic">Input</div></p>
+        </th>
+
+        <th> <!-- Abigail Kanewske -->
+            <img src = "images/capYellow.png" width="17%">
+            <h1>Abigail Kanewske</h1>
+            <p>History</p>
+            <p>School of Humanities & Social Science</p>
+            <p>Kentucky</p>
+            <p>Golf CO.</p>
+            <p><div class="executing">Achiever</div><div class="executing">Focus</div><div class="executing">Responsibility</div><div class="relationship">Harmony</div><div class="strategic">Context</div></p>
+        </th>
+
+        <th> <!-- Tyler Kelly -->
+            <img src = "images/capDarkBlue.png" width="17%">
+            <h1>Tyler Kelly</h1>
+            <p>Mechanical Engineering</p>
+            <p>School of Engineering</p>
+            <p>Virginia</p>
+            <p>Delta CO.</p>
+        </th>
+    </tr>
+
+    <tr>
+        <th> <!-- Aidan Lenz -->
+            <img src = "images/capLightBlue.png" width="17%">
+            <h1>Aidan Lenz</h1>
+            <p>Cyber Operations</p>
+            <p>School of Science & Math</p>
+            <p>Colorado</p>
+            <p>Golf CO.</p>
+            <p><div class="executing">Achiever</div><div class="executing">Deliberative</div><div class="executing">Responsibility</div><div class="relationship">Relator</div><div class="strategic">Analytical</div></p>
+        </th>
+
+        <th> <!-- Blake Lyon -->
+            <img src = "images/capYellow.png" width="17%">
+            <h1>Blake Lyon</h1>
+            <p>Intelligence & Security Studies</p>
+            <p>School of Humanities & Socail Science</p>
+            <p>North Carolina</p>
+            <p>Brave CO.</p>
+            <p><div class="executing">Deliberative</div><div class="executing">Discipline</div><div class="executing">Focus</div><div class="executing">Responsibility</div><div class="strategic">Analytical</div></p>
+        </th>
+
+        <th> <!-- Bryson McLees -->
+            <img src = "images/capOrange.png" width="17%">
+            <h1>Bryson McLees</h1>
+            <p>Pre-Education Social Studies</p>
+            <p>School of Education</p>
+            <p>South Carolina</p>
+            <p>Lima CO.</p>
+        </th>
+
+        <th> <!-- Derrick Orvik -->
+            <img src = "images/capLightBlue.png" width="17%">
+            <h1>Derrick Orvik</h1>
+            <p>Biology</p>
+            <p>School of Science & Math</p>
+            <p>Alabama</p>
+            <p>Tango CO.</p>
+        </th>
+
+        <th> <!-- Isaiah Poppe -->
+            <img src = "images/capLightBlue.png" width="17%">
+            <h1>Isaiah Poppe</h1>
+            <p>Sports Management</p>
+            <p>School of Science & Math</p>
+            <p>South Carolina</p>
+            <p>Romeo CO.</p>
+            <p><div class="executing">Achiever</div><div class="influencing">Competition</div><div class="influencing">Maximizer</div><div class="relationship">Harmony</div><div class="relationship">Positivity</div></p>
+        </th>
+
+        <th> <!-- William Rogers -->
+            <img src = "images/capGreen.png" width="17%">
+            <h1>William Rogers</h1>
+            <p>Marketing & Business Development</p>
+            <p>School of Business</p>
+            <p>South Carolina</p>
+            <p>Oscar CO.</p>
+        </th>
+
+        <th> <!-- Conor Rom -->
+            <img src = "images/capGreen.png" width="17%">
+            <h1>Conor Rom</h1>
+            <p>Accounting</p>
+            <p>School of Business</p>
+            <p>South Carolina</p>
+            <p>Palmetto Battery</p>
+            <p><div class="executing">Achiever</div><div class="executing">Focus</div><div class="executing">Responsibility</div><div class="strategic">Context</div><div class="strategic">Futuristic</div></p>
+        </th>
+    </tr>
+
+    <tr>
+        <th> <!-- John Ross -->
+            <img src = "images/capYellow.png" width="17%">
+            <h1>John Ross</h1>
+            <p>Criminal Justice</p>
+            <p>School of Humanities & Social Science</p>
+            <p>North Carolina</p>
+            <p>Foxtrot CO.</p>
+            <p><div class="executing">Consistency</div><div class="executing">Discipline</div><div class="relationship">Developer</div><div class="strategic">Ideation</div><div class="strategic">Strategic</div></p>
+        </th>
+
+        <th> <!-- James Roush -->
+            <img src = "images/capDarkBlue.png" width="17%">
+            <h1>James Roush</h1>
+            <p>Mechanical Engineering</p>
+            <p>School of Engineering</p>
+            <p>Ohio</p>
+            <p>Regimental Band</p>
+            <p><div class="executing">Achiever</div><div class="executing">Belief</div><div class="strategic">Analytical</div><div class="strategic">Context</div><div class="strategic">Learner</div></p>
+        </th>
+
+        <th> <!-- Richard Rush -->
+            <img src = "images/capDarkBlue.png" width="17%">
+            <h1>Richard Rush</h1>
+            <p>Mechanical Engineering</p>
+            <p>School of Education</p>
+            <p>South Carolina</p>
+            <p>Oscar CO.</p>
+            <p><div class="executing">Achiever</div><div class="executing">Discipline</div><div class="relationship">Relator</div><div class="strategic">Analytical</div><div class="strategic">Strategic</div></p>
+        </th>
+
+        <th> <!-- Kyle Samida -->
+            <img src = "images/capLightBlue.png" width="17%">
+            <h1>Kyle Samida</h1>
+            <p>Computer Science</p>
+            <p>School of Science & Math</p>
+            <p>New York</p>
+            <p>Golf CO.</p>
+            <p><div class="executing">Achiever</div><div class="executing">Focus</div><div class="executing">Restorative</div><div class="influencing">Competition</div><div class="strategic">Analytical</div></p>
+        </th>
+
+        <th> <!-- Brayden Shirley -->
+            <img src = "images/capGreen.png" width="17%">
+            <h1>Brayden Shirley</h1>
+            <p>Management</p>
+            <p>School of Business</p>
+            <p>Arkansas</p>
+            <p>Charle CO.</p>
+            <p><div class="executing">Belif</div><div class="executing">Responsibility</div><div class="executing">Restorative</div><div class="strategic">Futuristic</div><div class="strategic">Input</div></p>
+        </th>
+
+        <th> <!-- Aidan Smith -->
+            <img src = "images/capLightBlue.png" width="17%">
+            <h1>Aidan Smith</h1>
+            <p>Biology</p>
+            <p>School of Science & Math</p>
+            <p>South Carolina</p>
+            <p>Bravo CO.</p>
+        </th>
+
+        <th> <!-- Canyon Smith -->
+            <img src = "images/capGreen.png" width="17%">
+            <h1>Canyon Smith</h1>
+            <p>Business Adminstration</p>
+            <p>School of Business</p>
+            <p>South Carolina</p>
+            <p>Lima CO.</p>
+            <p><div class="executing">Achiever</div><div class="executing">Restorative</div><div class="influencing">Communication</div><div class="relationship">Relator</div><div class="strategic">Futuristic</div></p>
+        </th>
+    </tr>
+
+    <tr>
+        <th> <!-- Carl Sullivan -->
+            <img src = "images/capGreen.png" width="17%">
+            <h1>Carl Sullivan</h1>
+            <p>Finance</p>
+            <p>School of Business</p>
+            <p>South Carolina</p>
+            <p>Hotel CO.</p>
+        </th>
+
+        <th> <!-- Gage Timberlake -->
+            <img src = "images/capYellow.png" width="17%">
+            <h1>Gage Timberlake</h1>
+            <p>Criminal Justice</p>
+            <p>School of Humanities & Social Science</p>
+            <p>Flordia</p>
+            <p>Palmetto Battery</p>
+            <p><div class="executing">Achiever</div><div class="executing">Focus</div><div class="influencing">Competition</div><div class="influencing">Self-Assurance</div><div class="strategic">Futuristic</div></p>
+        </th>
+
+        <th> <!-- Travis Turley -->
+            <img src = "images/capYellow.png" width="17%">
+            <h1>Travis Turley</h1>
+            <p>Intelligence & Security Studies</p>
+            <p>School of Humanities & Social Science</p>
+            <p>Oklahoma</p>
+            <p>Papa CO.</p>
+            <p><div class="executing">Responsibility</div><div class="influencing">Competition</div><div class="influencing">Self-Assurance</div><div class="strategic">Analytical</div><div class="strategic">Strategic</div></p>
+        </th>
+
+        <th> <!-- Brittany Wilson -->
+            <img src = "images/capGreen.png" width="17%">
+            <h1>Brittany Wilson</h1>
+            <p>Supply Chain Management</p>
+            <p>School of Business</p>
+            <p>Georgia</p>
+            <p>Victor CO.</p>
+            <p><div class="executing">Activator</div><div class="influencing">Competition</div><div class="relationship">Harmony</div><div class="relationship">Positivity</div><div class="strategic">Learner</div></p>
+        </th>
+
+        <th> <!-- Tiffany Wilson -->
+            <img src = "images/capYellow.png" width="17%">
+            <h1>Tiffany Wilson</h1>
+            <p>Chemistry</p>
+            <p>School of Science & Math</p>
+            <p>Georgia</p>
+            <p>Foxtrot CO.</p>
+            <p><div class="executing">Achiever</div><div class="executing">Consistency</div><div class="executing">Restorative</div><div class="relationship">Empathy</div><div class="relationship">Harmony</div></p>
+        </th>
+    </tr>
+
+
+</table>
+</div>
+
+
+
+
+
+
+
+
+
+<!--  ---------------------------------------------------------------- Footer ---------------------------------------------------------------- -->
+<footer>
+	<div class="footer">
+		<table class="footertable">
+			<tr>
+				<td>
+					<img src="images/img_1842_logo.png" width="100%" height="auto" alt="1842 Logo">
+					<p class="textextrasmall">Copyright @2021 | All Right Reserved | Website Programmed By Conor Rom</p>
+				</td>
+
+				<td>
+					<h1 class="textlarge"><u>Photos</u></h1>
+					<img class="imgzoomlarge" src="images/img_duty_uniform.png" width="49%" height="auto" alt="Pixel Art Cadet In Duty Uniform - Rom"></a>
+					<img class="imgzoomlarge" src="images/img_salt_uniform.png" width="49%" height="auto" alt="Pixel Art Cadet In Slat & Pepper - Rom"></a>
+				</td>
+				
+				<td>
+					<h1 class="textlarge"><u>Social</u></h1>
+					<a href="1842ComingSoon.html" target="_blank"><img class="imgzoomlarge" src="images/ButtonTwitter.png" width="50%" height="auto" alt="Twitter Link"></a>
+					<a href="1842ComingSoon.html" target="_blank"><img class="imgzoomlarge" src="images/ButtonYoutube.png" width="50%" height="auto" alt="Youtube Link"></a>
+				</td>
+
+			</tr>
+		</table>
+
+		</br>
+		<hr style="color: white">			
+
+		<table>
+			<tr>
+				<td style="text-align: center;"><a href="1842AboutUs.html"><img class="imgzoomsmall" style="width: 50%;" src="images/ButtonAboutUs.png" width="100%" height="auto" alt="About Us Link"></a></td>
+				<td style="text-align: center;"><a href="mailto:crom@citadel.edu"><img class="imgzoomsmall" style="width: 50%;" src="images/ButtonContactUs.png" width="100%" height="auto" alt="Contact Us Link"></a></td>
+				<td style="text-align: center;"><a href="1842ComingSoon.html" target="_blank"><img class="imgzoomsmall" style="width: 50%;" src="images/ButtonDonate.png" width="100%" height="auto" alt="Donate Link"></a></td>
+			</tr>
+		</table>
+	</div>
+</footer>
+
+
+
+
+<script>
+    function toggleLeadershipTable() 
+    {
+        document.getElementById("leadershipTable").classList.toggle("hidden");
+    }
+
+    function toggleAdvisorsTable() 
+    {
+        document.getElementById("advisorsTable").classList.toggle("hidden");
+    }
+
+    function toggleClassOf2026Table() 
+    {
+        document.getElementById("classOf2026Table").classList.toggle("hidden");
+    }
+    
+    function toggleClassOf2025Table() 
+    {
+        document.getElementById("classOf2025Table").classList.toggle("hidden");
+    }
+</script>	
+
+</body>
